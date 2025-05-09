@@ -1,0 +1,63 @@
+Model 2: Interaction Model (All Projects)
+================================================================================
+
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     log_q_success_indicator   R-squared:                       0.303
+Model:                                 OLS   Adj. R-squared:                  0.291
+Method:                      Least Squares   F-statistic:                     25.97
+Date:                     Sat, 10 May 2025   Prob (F-statistic):           1.17e-52
+Time:                             00:51:46   Log-Likelihood:                -1142.6
+No. Observations:                      792   AIC:                             2313.
+Df Residuals:                          778   BIC:                             2379.
+Df Model:                               13                                         
+Covariance Type:                 nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+Intercept                         -1.8925      0.237     -7.970      0.000      -2.359      -1.426
+Tech_Biomass_and_Waste[T.True]    -0.3648      0.119     -3.056      0.002      -0.599      -0.130
+Tech_Energy_Efficiency[T.True]     0.4107      0.227      1.809      0.071      -0.035       0.856
+Tech_Hydro[T.True]                -0.0031      0.156     -0.020      0.984      -0.309       0.303
+Tech_Industrial_Gases[T.True]     -0.2888      0.358     -0.806      0.420      -0.992       0.414
+Tech_Other[T.True]                 0.0650      0.153      0.426      0.670      -0.234       0.364
+Tech_Other_Renewable[T.True]      -0.0461      0.182     -0.254      0.800      -0.403       0.311
+Tech_Solar[T.True]                -0.0030      0.254     -0.012      0.990      -0.502       0.496
+log_t_actual_years                 0.7352      0.078      9.390      0.000       0.581       0.889
+Scale_Large                        0.0581      0.211      0.275      0.783      -0.357       0.473
+Is_International                   0.4700      0.232      2.025      0.043       0.014       0.926
+Is_CDM                             1.3000      0.149      8.709      0.000       1.007       1.593
+Is_CDM_x_log_t                    -1.3505      0.093    -14.462      0.000      -1.534      -1.167
+Is_CDM_x_Scale                    -0.2790      0.207     -1.350      0.177      -0.685       0.127
+Is_CDM_x_Intl                      1.3000      0.149      8.709      0.000       1.007       1.593
+==============================================================================
+Omnibus:                      777.377   Durbin-Watson:                   1.649
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            47134.529
+Skew:                          -4.363   Prob(JB):                         0.00
+Kurtosis:                      39.772   Cond. No.                     5.91e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.57e-32. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+Significance codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Variance Inflation Factors (VIF):
+                  Variable       VIF
+1       log_t_actual_years  3.626332
+2              Scale_Large  8.215136
+3         Is_International  8.998136
+4                   Is_CDM       inf
+5   Tech_Biomass_and_Waste  1.485850
+6   Tech_Energy_Efficiency  2.047712
+7               Tech_Hydro  1.221122
+8    Tech_Industrial_Gases  1.069700
+9               Tech_Other  3.291354
+10    Tech_Other_Renewable  3.306255
+11              Tech_Solar  1.066316
+12          Is_CDM_x_log_t  6.728847
+13          Is_CDM_x_Scale  5.978583
+14           Is_CDM_x_Intl       inf
+

@@ -1,0 +1,32 @@
+International Participation Distribution:
+Is_International
+0    271
+1     22
+
+Percentage with international participation: 7.5%
+
+International Participation by Technology:
+Is_International       0  1
+Technology_Category        
+Biomass and Waste      5  3
+Energy Efficiency     40  4
+Other                135  7
+Other Renewable       91  8
+
+Percentage with international participation by Technology:
+Technology_Category
+Biomass and Waste    37.5
+Energy Efficiency     9.1
+Other                 4.9
+Other Renewable       8.1
+
+International Participation by Scale:
+Is_International    0   1
+Scale_Category           
+Large Scale       149  10
+Small Scale       122  12
+
+Percentage with international participation by Scale:
+Scale_Category
+Large Scale    6.3
+Small Scale    9.0

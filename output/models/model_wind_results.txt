@@ -1,0 +1,43 @@
+Wind Projects Model
+================================================================================
+
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     log_q_success_indicator   R-squared:                       0.791
+Model:                                 OLS   Adj. R-squared:                  0.789
+Method:                      Least Squares   F-statistic:                     369.9
+Date:                     Sat, 10 May 2025   Prob (F-statistic):           4.34e-67
+Time:                             00:52:03   Log-Likelihood:                -78.171
+No. Observations:                      198   AIC:                             162.3
+Df Residuals:                          195   BIC:                             172.2
+Df Model:                                2                                         
+Covariance Type:                 nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept              0.3889      0.017     22.981      0.000       0.356       0.422
+log_t_actual_years    -0.6992      0.026    -27.197      0.000      -0.750      -0.649
+Scale_Large            0.1040      0.052      1.996      0.047       0.001       0.207
+Is_International       0.3889      0.017     22.981      0.000       0.356       0.422
+Is_CDM                 0.3889      0.017     22.981      0.000       0.356       0.422
+==============================================================================
+Omnibus:                       13.630   Durbin-Watson:                   1.970
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               28.233
+Skew:                           0.277   Prob(JB):                     7.40e-07
+Kurtosis:                       4.765   Cond. No.                     1.30e+32
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 7.04e-62. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+Significance codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Variance Inflation Factors (VIF):
+             Variable       VIF
+0  log_t_actual_years  1.006332
+1         Scale_Large  1.006332
+2    Is_International  0.000000
+3              Is_CDM  0.000000
+

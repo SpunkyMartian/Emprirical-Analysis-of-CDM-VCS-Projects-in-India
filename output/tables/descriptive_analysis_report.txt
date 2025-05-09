@@ -1,0 +1,212 @@
+DESCRIPTIVE ANALYSIS REPORT FOR CARBON CREDIT PROJECTS IN INDIA
+============================================================
+
+1. OVERVIEW AND DATA SUMMARY
+------------------------------------------------------------
+Total projects analyzed: 792
+  VCS projects: 293
+  CDM projects: 499
+
+2. OVERALL SUCCESS INDICATOR (log(q)) STATISTICS
+------------------------------------------------------------
+count    792.000000
+mean      -0.170984
+std        1.227086
+min      -11.275672
+25%       -0.405012
+50%       -0.064932
+75%        0.215749
+max        5.904794
+Variance: 1.5057
+
+Performance relative to estimates:
+  Over-performance (log(q) > 0): 42.2%
+  Under-performance (log(q) < 0): 57.8%
+  As expected (log(q) = 0): 0.0%
+
+3. REGIME COMPARISON
+------------------------------------------------------------
+Success indicator statistics by regime:
+        count      mean       std    median        min       max   pct_over  pct_under
+Regime                                                                                
+CDM       499  0.084419  0.753000  0.006993  -1.718842  5.904794  50.501002  49.498998
+VCS       293 -0.605954  1.676474 -0.187572 -11.275672  2.190936  27.986348  72.013652
+
+T-test for difference in means between regimes:
+  t-statistic: -6.1498, p-value: 0.0000
+  The difference in success between VCS and CDM projects is statistically significant
+
+4. TECHNOLOGY ANALYSIS
+------------------------------------------------------------
+Success indicator by technology category:
+                     count    mean     std      min     max  median  pct_over  variance  pct_under
+Technology_Category                                                                               
+Solar                   18  0.1691  0.3593  -0.9168  0.5547  0.1951   72.2222    0.1291    27.7778
+Wind                   198  0.1387  0.7882  -1.2550  5.9048 -0.0085   48.9899    0.6213    51.0101
+Hydro                   58  0.0528  0.6236  -1.3465  1.8921  0.0441   55.1724    0.3889    44.8276
+Industrial Gases         9 -0.0382  0.5911  -1.0477  0.7456  0.0785   66.6667    0.3494    33.3333
+Biomass and Waste      134 -0.1849  1.6512 -11.0557  4.6839 -0.0133   47.0149    2.7263    52.9851
+Other                  203 -0.2867  1.1805 -11.2757  1.3942 -0.1084   35.4680    1.3935    64.5320
+Other Renewable        127 -0.3872  1.3526  -9.2353  1.9738 -0.1658   33.0709    1.8296    66.9291
+Energy Efficiency       45 -0.8108  1.6211  -5.9556  2.1909 -0.1913   20.0000    2.6281    80.0000
+
+Technology distribution across regimes:
+Regime               CDM  VCS
+Technology_Category          
+Biomass and Waste    126    8
+Energy Efficiency      1   44
+Hydro                 58    0
+Industrial Gases       9    0
+Other                 61  142
+Other Renewable       28   99
+Solar                 18    0
+Wind                 198    0
+
+Mean success indicator by technology and regime:
+Regime                  CDM     VCS
+Technology_Category                
+Biomass and Waste    0.0567 -3.9897
+Energy Efficiency   -0.9759 -0.8071
+Hydro                0.0528     NaN
+Industrial Gases    -0.0382     NaN
+Other               -0.0960 -0.3686
+Other Renewable      0.3070 -0.5836
+Solar                0.1691     NaN
+Wind                 0.1387     NaN
+
+5. SCALE ANALYSIS
+------------------------------------------------------------
+Success indicator by scale category:
+                count    mean     std      min     max  median  pct_over  variance  pct_under
+Scale_Category                                                                               
+LARGE             200  0.0144  0.7792  -1.7188  4.6839 -0.0842   41.5000    0.6071    58.5000
+Large Scale       159 -0.5615  1.6567 -11.2757  0.9478 -0.1534   32.0755    2.7445    67.9245
+SMALL             299  0.1312  0.7325  -1.5349  5.9048  0.0765   56.5217    0.5366    43.4783
+Small Scale       134 -0.6587  1.7044 -10.2568  2.1909 -0.2051   23.1343    2.9050    76.8657
+
+Scale distribution across regimes:
+Regime          CDM  VCS
+Scale_Category          
+LARGE           200    0
+Large Scale       0  159
+SMALL           299    0
+Small Scale       0  134
+
+Mean success indicator by scale and regime:
+Regime             CDM     VCS
+Scale_Category                
+LARGE           0.0144     NaN
+Large Scale        NaN -0.5615
+SMALL           0.1312     NaN
+Small Scale        NaN -0.6587
+
+6. INTERNATIONAL PARTICIPATION ANALYSIS
+------------------------------------------------------------
+Success indicator by international participation:
+                             count    mean     std      min     max  median  pct_over  variance  pct_under
+Domestic Only                  271 -0.6132  1.7069 -11.2757  2.1909 -0.1847   27.6753    2.9136    72.3247
+International Participation    521  0.0590  0.7892  -5.3545  5.9048 -0.0053   49.7121    0.6228    50.2879
+
+International participation across regimes:
+Regime                       CDM  VCS
+Domestic Only                  0  271
+International Participation  499   22
+
+Mean success indicator by international participation and regime:
+Regime                          CDM     VCS
+Participation                              
+Domestic Only                   NaN -0.6132
+International Participation  0.0844 -0.5173
+
+7. DURATION ANALYSIS
+------------------------------------------------------------
+Project duration statistics (years):
+count    792.000000
+mean       6.004625
+std        3.763797
+min        0.010951
+25%        2.997947
+50%        5.544148
+75%        8.835044
+max       21.483915
+
+Duration by regime:
+        count  mean  median   std   min    max
+Regime                                        
+CDM       499  5.85    5.37  3.71  0.01  16.98
+VCS       293  6.26    5.72  3.85  0.23  21.48
+
+Performance by duration bin:
+              count    mean     std  median
+Duration_Bin                               
+0-2 years       128 -0.1354  2.6483  0.5068
+2-4 years       146 -0.0610  0.6837  0.0511
+4-6 years       167 -0.0568  0.4935 -0.0201
+6-8 years       120 -0.0634  0.4737 -0.0247
+8-10 years      112 -0.3026  0.3499 -0.2531
+10+ years       119 -0.4891  1.0590 -0.4138
+
+Correlations between duration and success:
+  Correlation between t_actual_years and log(q): -0.1026
+  Correlation between log(t) and log(q): -0.1397
+
+8. CORRELATION ANALYSIS
+------------------------------------------------------------
+Correlations with success indicator (sorted):
+Is_CDM                                  0.272
+Is_International                        0.260
+Total_Actual_VCUs_Issued                0.025
+Scale_Large                            -0.052
+t_actual_years                         -0.103
+log_t_actual_years                     -0.140
+Estimated Annual Emission Reductions   -0.152
+
+Key correlations by regime:
+
+VCS:
+log_t_actual_years                      0.339477
+t_actual_years                          0.210107
+Total_Actual_VCUs_Issued                0.097925
+Scale_Large                             0.028924
+Is_International                        0.015100
+Estimated Annual Emission Reductions   -0.129892
+
+CDM:
+Total_Actual_VCUs_Issued               -0.010369
+Scale_Large                            -0.076119
+Estimated Annual Emission Reductions   -0.081307
+t_actual_years                         -0.516151
+log_t_actual_years                     -0.735129
+Is_International                             NaN
+
+
+9. KEY FINDINGS
+------------------------------------------------------------
+9.1. Overall Performance
+Carbon projects in India tend to under-perform relative to their estimated emission reductions, with 57.8% of projects achieving lower reductions than estimated.
+
+9.2. Regime Differences
+There is a statistically significant difference in performance between regimes. CDM projects perform better on average (mean log(q) difference of 0.6904).
+
+9.3. Technology Effects
+Solar projects show the strongest performance with a mean log(q) of 0.1691, while Energy Efficiency projects show the weakest performance with a mean log(q) of -0.8108.
+
+9.4. Scale Effects
+Large-scale projects tend to perform better than small-scale projects, with mean log(q) values of -0.5615 vs. -0.6587 (difference of 0.0972), suggesting economies of scale.
+
+9.5. International Participation Effects
+Projects with international participation tend to perform better than purely domestic projects, with mean log(q) values of 0.0590 vs. -0.6132 (difference of 0.6722).
+
+9.6. Duration Effects
+There is a negative correlation (-0.1397) between project duration (log(t)) and performance (log(q)), suggesting potential project degradation over time or initial overestimation of emission reductions.
+
+9.7. Key Correlations
+Strongest positive correlations with success indicator:
+  - Is_CDM: 0.2720
+  - Is_International: 0.2600
+  - Total_Actual_VCUs_Issued: 0.0250
+
+Strongest negative correlations with success indicator:
+  - t_actual_years: -0.1030
+  - log_t_actual_years: -0.1400
+  - Estimated Annual Emission Reductions: -0.1520

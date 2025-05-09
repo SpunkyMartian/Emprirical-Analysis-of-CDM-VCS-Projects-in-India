@@ -1,0 +1,55 @@
+Model 1: Base Model (All Projects)
+================================================================================
+
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     log_q_success_indicator   R-squared:                       0.115
+Model:                                 OLS   Adj. R-squared:                  0.102
+Method:                      Least Squares   F-statistic:                     9.196
+Date:                     Sat, 10 May 2025   Prob (F-statistic):           1.29e-15
+Time:                             00:51:44   Log-Likelihood:                -1237.1
+No. Observations:                      792   AIC:                             2498.
+Df Residuals:                          780   BIC:                             2554.
+Df Model:                               11                                         
+Covariance Type:                 nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+Intercept                         -0.2076      0.191     -1.087      0.277      -0.582       0.167
+Tech_Biomass_and_Waste[T.True]    -0.3899      0.134     -2.904      0.004      -0.653      -0.126
+Tech_Energy_Efficiency[T.True]    -0.3690      0.239     -1.545      0.123      -0.838       0.100
+Tech_Hydro[T.True]                -0.0916      0.175     -0.523      0.601      -0.435       0.252
+Tech_Industrial_Gases[T.True]     -0.1003      0.402     -0.249      0.803      -0.890       0.690
+Tech_Other[T.True]                 0.3099      0.165      1.879      0.061      -0.014       0.634
+Tech_Other_Renewable[T.True]      -0.0021      0.178     -0.012      0.990      -0.351       0.346
+Tech_Solar[T.True]                 0.0218      0.286      0.076      0.939      -0.540       0.584
+log_t_actual_years                -0.2147      0.048     -4.468      0.000      -0.309      -0.120
+Scale_Large                       -0.2799      0.120     -2.329      0.020      -0.516      -0.044
+Is_International                   0.0883      0.259      0.340      0.734      -0.421       0.598
+Is_CDM                             0.7076      0.271      2.607      0.009       0.175       1.240
+==============================================================================
+Omnibus:                      806.104   Durbin-Watson:                   1.382
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            44628.218
+Skew:                          -4.691   Prob(JB):                         0.00
+Kurtosis:                      38.558   Cond. No.                         22.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Significance codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Variance Inflation Factors (VIF):
+                  Variable        VIF
+1       log_t_actual_years   1.079304
+2              Scale_Large   2.096616
+3         Is_International   8.876493
+4                   Is_CDM  10.060671
+5   Tech_Biomass_and_Waste   1.484750
+6   Tech_Energy_Efficiency   1.790134
+7               Tech_Hydro   1.218001
+8    Tech_Industrial_Gases   1.066263
+9               Tech_Other   3.037035
+10    Tech_Other_Renewable   2.486313
+11              Tech_Solar   1.066262
+

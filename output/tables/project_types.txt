@@ -1,0 +1,15 @@
+Project Types and Counts:
+Project Type
+Energy industries (renewable/non-renewable sources)                                                            227
+Energy demand                                                                                                   43
+Manufacturing industries                                                                                         5
+Agriculture Forestry and Other Land Use                                                                          4
+Transport; Waste handling and disposal                                                                           3
+Energy industries (renewable/non-renewable sources); Waste handling and disposal                                 3
+Waste handling and disposal                                                                                      2
+Energy industries (renewable/non-renewable sources); Livestock, enteric fermentation, and manure management      1
+Chemical industry; Energy demand; Energy industries (renewable/non-renewable sources)                            1
+Chemical industry; Transport                                                                                     1
+Transport                                                                                                        1
+Chemical industry                                                                                                1
+Energy industries (renewable/non-renewable sources); Transport                                                   1

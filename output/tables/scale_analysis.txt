@@ -1,0 +1,19 @@
+Scale Categories and Counts:
+Scale_Category
+Large Scale    159
+Small Scale    134
+
+Scale by Technology Category:
+Scale_Category       Large Scale  Small Scale
+Technology_Category                          
+Biomass and Waste              3            5
+Energy Efficiency             14           30
+Other                        142            0
+Other Renewable                0           99
+
+Percentage of Large Scale projects by Technology:
+Technology_Category
+Biomass and Waste     37.5
+Energy Efficiency     31.8
+Other                100.0
+Other Renewable        0.0

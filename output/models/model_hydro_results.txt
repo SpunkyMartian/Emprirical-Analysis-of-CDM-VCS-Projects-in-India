@@ -1,0 +1,43 @@
+Hydro Projects Model
+================================================================================
+
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     log_q_success_indicator   R-squared:                       0.530
+Model:                                 OLS   Adj. R-squared:                  0.513
+Method:                      Least Squares   F-statistic:                     31.02
+Date:                     Sat, 10 May 2025   Prob (F-statistic):           9.56e-10
+Time:                             00:52:01   Log-Likelihood:                -32.502
+No. Observations:                       58   AIC:                             71.00
+Df Residuals:                           55   BIC:                             77.19
+Df Model:                                2                                         
+Covariance Type:                 nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept              0.3544      0.048      7.461      0.000       0.259       0.450
+log_t_actual_years    -0.5525      0.070     -7.854      0.000      -0.693      -0.412
+Scale_Large           -0.2114      0.132     -1.606      0.114      -0.475       0.052
+Is_International       0.3544      0.048      7.461      0.000       0.259       0.450
+Is_CDM                 0.3544      0.048      7.461      0.000       0.259       0.450
+==============================================================================
+Omnibus:                       18.647   Durbin-Watson:                   2.027
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.860
+Skew:                          -1.102   Prob(JB):                     5.41e-07
+Kurtosis:                       5.662   Cond. No.                     1.16e+33
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 2.77e-64. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+Significance codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Variance Inflation Factors (VIF):
+             Variable       VIF
+0  log_t_actual_years  1.017137
+1         Scale_Large  1.017137
+2    Is_International  0.000000
+3              Is_CDM  0.000000
+

@@ -1,0 +1,45 @@
+Stepwise Regression Model
+================================================================================
+
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     log_q_success_indicator   R-squared:                       0.281
+Model:                                 OLS   Adj. R-squared:                  0.279
+Method:                      Least Squares   F-statistic:                     102.9
+Date:                     Sat, 10 May 2025   Prob (F-statistic):           3.40e-56
+Time:                             00:52:10   Log-Likelihood:                -1154.5
+No. Observations:                      792   AIC:                             2317.
+Df Residuals:                          788   BIC:                             2336.
+Df Model:                                3                                         
+Covariance Type:                 nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept             -1.6508      0.127    -12.952      0.000      -1.901      -1.401
+log_t_actual_years     0.6668      0.071      9.332      0.000       0.526       0.807
+Is_CDM                 1.3161      0.078     16.939      0.000       1.164       1.469
+Is_CDM_x_log_t        -1.2714      0.088    -14.482      0.000      -1.444      -1.099
+Is_CDM_x_Intl          1.3161      0.078     16.939      0.000       1.164       1.469
+==============================================================================
+Omnibus:                      803.453   Durbin-Watson:                   1.601
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            52474.425
+Skew:                          -4.587   Prob(JB):                         0.00
+Kurtosis:                      41.807   Cond. No.                     3.78e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 3.39e-30. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+Significance codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Variance Inflation Factors (VIF):
+             Variable       VIF
+1  log_t_actual_years       inf
+2              Is_CDM       inf
+3  log_t_actual_years       inf
+4              Is_CDM       inf
+5      Is_CDM_x_log_t  5.845601
+6       Is_CDM_x_Intl       inf
+

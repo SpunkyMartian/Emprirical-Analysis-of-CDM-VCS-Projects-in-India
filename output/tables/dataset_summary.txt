@@ -1,0 +1,68 @@
+Dataset contains 293 projects with complete data
+Number of columns: 21
+
+Column names:
+  0: ID
+  1: Name
+  2: Proponent
+  3: Project Type
+  4: AFOLU Activities
+  5: Methodology
+  6: Status
+  7: Country/Area
+  8: Estimated Annual Emission Reductions
+  9: Region
+  10: Project Registration Date
+  11: Crediting Period Start Date
+  12: Crediting Period End Date
+  13: Total_Actual_VCUs_Issued
+  14: Actual_Issuance_Start_Date
+  15: Actual_Issuance_End_Date
+  16: t_actual_days
+  17: t_actual_years
+  18: Total_Estimated_ERs_Actual_Period
+  19: q_quotient
+  20: log_q_success_indicator
+
+Summary statistics for key metrics:
+       Estimated Annual Emission Reductions  t_actual_years  Total_Actual_VCUs_Issued  q_quotient  log_q_success_indicator
+count                          2.930000e+02      293.000000              2.930000e+02  293.000000               293.000000
+mean                           2.348219e+05        6.262577              8.197902e+05    0.849624                -0.605954
+std                            5.636241e+05        3.845357              2.435506e+06    0.654780                 1.676474
+min                            3.120000e+03        0.227242              2.000000e+00    0.000013               -11.275672
+25%                            2.163600e+04        3.244353              6.148500e+04    0.604797                -0.502863
+50%                            5.198500e+04        5.722108              1.938470e+05    0.828970                -0.187572
+75%                            1.679730e+05        9.223819              6.469950e+05    1.045708                 0.044694
+max                            4.354646e+06       21.483915              3.084780e+07    8.943582                 2.190936
+
+Missing values by column:
+AFOLU Activities               289
+Region                           8
+Crediting Period Start Date    139
+Crediting Period End Date      139
+
+Project Types:
+Project Type
+Energy industries (renewable/non-renewable sources)                                                            227
+Energy demand                                                                                                   43
+Manufacturing industries                                                                                         5
+Agriculture Forestry and Other Land Use                                                                          4
+Transport; Waste handling and disposal                                                                           3
+Energy industries (renewable/non-renewable sources); Waste handling and disposal                                 3
+Waste handling and disposal                                                                                      2
+Energy industries (renewable/non-renewable sources); Livestock, enteric fermentation, and manure management      1
+Chemical industry; Energy demand; Energy industries (renewable/non-renewable sources)                            1
+Chemical industry; Transport                                                                                     1
+
+Methodologies:
+Methodology
+ACM0002      129
+AMS-I.D.      71
+AMS-II.G.     18
+VMR0006       17
+AMS-I.C.       9
+AMS-II.C.      7
+AMS-III.Z      5
+AM0029         3
+ACM0006        3
+AMS-I.F.       3

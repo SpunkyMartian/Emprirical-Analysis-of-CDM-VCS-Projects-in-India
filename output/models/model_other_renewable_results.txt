@@ -1,0 +1,43 @@
+Other Renewable Projects Model
+================================================================================
+
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     log_q_success_indicator   R-squared:                       0.122
+Model:                                 OLS   Adj. R-squared:                  0.100
+Method:                      Least Squares   F-statistic:                     5.690
+Date:                     Sat, 10 May 2025   Prob (F-statistic):            0.00111
+Time:                             00:51:57   Log-Likelihood:                -209.81
+No. Observations:                      127   AIC:                             427.6
+Df Residuals:                          123   BIC:                             439.0
+Df Model:                                3                                         
+Covariance Type:                 nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept             -1.2980      0.328     -3.962      0.000      -1.946      -0.650
+log_t_actual_years     0.3782      0.170      2.231      0.028       0.043       0.714
+Scale_Large        -3.141e-18    5.5e-16     -0.006      0.995   -1.09e-15    1.09e-15
+Is_International       0.5184      0.474      1.093      0.277      -0.420       1.457
+Is_CDM                 0.6008      0.527      1.140      0.256      -0.442       1.644
+==============================================================================
+Omnibus:                      132.072   Durbin-Watson:                   1.887
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2320.810
+Skew:                          -3.669   Prob(JB):                         0.00
+Kurtosis:                      22.615   Cond. No.                     3.42e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 4.62e-33. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+Significance codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Variance Inflation Factors (VIF):
+             Variable       VIF
+1  log_t_actual_years  1.098092
+2         Scale_Large       NaN
+3    Is_International  3.525861
+4              Is_CDM  3.682850
+

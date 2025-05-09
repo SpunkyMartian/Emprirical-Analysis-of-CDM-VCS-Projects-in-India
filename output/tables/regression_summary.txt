@@ -1,0 +1,39 @@
+REGRESSION ANALYSIS SUMMARY
+================================================================================
+
+Final Preferred Model: Model 2 (with interactions)
+Observations: 792.0
+R-squared: 0.3026
+Adjusted R-squared: 0.2910
+AIC: 2313.26
+
+Key Variables in the Model:
+  Intercept: -1.8925 *** (p=0.0000)
+  Tech_Biomass_and_Waste[T.True]: -0.3648 ** (p=0.0023)
+  Tech_Energy_Efficiency[T.True]: 0.4107  (p=0.0708)
+  Tech_Hydro[T.True]: -0.0031  (p=0.9843)
+  Tech_Industrial_Gases[T.True]: -0.2888  (p=0.4204)
+  Tech_Other[T.True]: 0.0650  (p=0.6701)
+  Tech_Other_Renewable[T.True]: -0.0461  (p=0.7998)
+  Tech_Solar[T.True]: -0.0030  (p=0.9905)
+  log_t_actual_years: 0.7352 *** (p=0.0000)
+  Scale_Large: 0.0581  (p=0.7835)
+  Is_International: 0.4700 * (p=0.0433)
+  Is_CDM: 1.3000 *** (p=0.0000)
+  Is_CDM_x_log_t: -1.3505 *** (p=0.0000)
+  Is_CDM_x_Scale: -0.2790  (p=0.1774)
+  Is_CDM_x_Intl: 1.3000 *** (p=0.0000)
+
+Marginal Effects for Key Variables:
+  log_t_actual_years: 0.7352 *** (p=0.0000) - A 1% increase in project duration is associated with a 0.7352% change in the success ratio
+  Scale_Large: 0.0581  (p=0.7835) - Large-scale projects have a 0.0581 log point difference in success compared to small-scale projects
+  Is_International: 0.4700 * (p=0.0433) - Projects with international participation have a 0.4700 log point difference in success compared to domestic projects
+  Is_CDM: 1.3000 *** (p=0.0000) - CDM projects have a 1.3000 log point difference in success compared to VCS projects
+
+Regime-Specific Differences:
+  CDM projects show a statistically significant difference in success compared to VCS projects (p=0.0000). CDM projects tend to perform better.
+
+Interaction Effects:
+  Is_CDM_x_log_t: -1.3505 *** (p=0.0000) - The effect of project duration differs by -1.3505 log points for CDM projects compared to VCS projects
+  Is_CDM_x_Scale: -0.2790  (p=0.1774) - The effect of project scale differs by -0.2790 log points for CDM projects compared to VCS projects
+  Is_CDM_x_Intl: 1.3000 *** (p=0.0000) - The effect of international participation differs by 1.3000 log points for CDM projects compared to VCS projects
