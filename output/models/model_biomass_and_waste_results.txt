@@ -7,7 +7,7 @@ Dep. Variable:     log_q_success_indicator   R-squared:                       0.
 Model:                                 OLS   Adj. R-squared:                  0.542
 Method:                      Least Squares   F-statistic:                     40.29
 Date:                     Sat, 10 May 2025   Prob (F-statistic):           7.25e-22
-Time:                             00:51:55   Log-Likelihood:                -202.53
+Time:                             20:12:39   Log-Likelihood:                -202.53
 No. Observations:                      134   AIC:                             415.1
 Df Residuals:                          129   BIC:                             429.5
 Df Model:                                4                                         

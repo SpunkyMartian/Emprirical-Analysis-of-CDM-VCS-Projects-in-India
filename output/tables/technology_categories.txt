@@ -1,6 +1,0 @@
-Technology Categories and Counts:
-Technology_Category
-Other                142
-Other Renewable       99
-Energy Efficiency     44
-Biomass and Waste      8
